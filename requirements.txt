@@ -1,0 +1,20 @@
+streamlit>=1.20.0
+tensorflow==2.10.0
+opencv-python>=4.11.0
+pillow>=11.3.0
+numpy==1.23.5
+pydicom>=2.4.4
+scikit-image>=0.24.0
+scipy>=1.13.1
+h5py>=3.14.0
+mask-rcnn @ git+https://github.com/akTwelve/Mask_RCNN.git@d9f01dcd83b1e90e5ea0b4b6d5ba753770e114ac
+# Thư viện cho script so sánh models
+tqdm>=4.65.0
+torch>=2.0.0
+torchvision>=0.15.0
+pandas>=1.5.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+scikit-learn>=1.0.0
+grad-cam>=1.4.0
+

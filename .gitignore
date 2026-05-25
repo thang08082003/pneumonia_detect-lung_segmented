@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv*/
+env/
+ENV/
+
+# Models (nếu không dùng Git LFS)
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+outputs/
+*.png
+*.jpg
+*.jpeg
+!ảnh test/**/*.jpg
+!ảnh test/**/*.png
+!ảnh test/**/*.jpeg
+
+# Logs
+*.log
+
+# Temporary files
+requirements_temp.txt
+*.tmp
+
